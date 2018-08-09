@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "104023123792",
+    "firebase_url": "https://booku-6c672.firebaseio.com",
+    "project_id": "booku-6c672",
+    "storage_bucket": "booku-6c672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104023123792:android:73adaa8e899e3f2c",
+        "android_client_info": {
+          "package_name": "com.pctcreative.booku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104023123792-87qgoum1hh4dhm65s96sj4g9mc2n8jtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pctcreative.booku",
+            "certificate_hash": "8d21bc9f1f52a19eefaad36c86518d834e90b8c2"
+          }
+        },
+        {
+          "client_id": "104023123792-9dr2j4efhjj7otkm601ndnhe2g1firib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJpr37EC_vcu_1_aaPUb0N4w6UHVbDV4I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104023123792-9dr2j4efhjj7otkm601ndnhe2g1firib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Title"
+        android:autoSizeTextType="uniform"/>
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Title"
+        android:layout_below="@+id/Title"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:autoSizeTextType="uniform"/>
+
+    <Button
+        android:id="@+id/UploadImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Barcode"
+        android:layout_alignTop="@+id/Barcode"
+        android:layout_marginTop="56dp"
+        android:text="Upload Thumbnail" />
+
+    <EditText
+        android:id="@+id/Barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Description"
+        android:layout_below="@+id/Description"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Barcode(Exact)" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_alignStart="@+id/UploadImg"
+        android:layout_below="@+id/UploadImg"
+        android:layout_marginTop="22dp"
+        android:id="@+id/Thumbnail" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Thumbnail"
+        android:layout_marginBottom="33dp"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/UploadImg"
+        android:text="Submit" />
+</RelativeLayout>

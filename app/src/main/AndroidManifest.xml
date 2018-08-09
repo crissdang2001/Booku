@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pctcreative.booku">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminActivity"
+            android:label="Admin">
+        </activity>
+        <activity android:name=".BookListActivity"
+            android:label="Book List">
+        </activity>
+        <activity android:name=".BookAddingActivity"
+            android:label="Add Book">
+        </activity>
+        <activity android:name=".UserWaitingInfoActivity"
+            android:label="User">
+        </activity>
+        <activity android:name=".UserActivity"
+            android:label="User">
+        </activity>
+        <activity android:name=".UserInfoActivity"
+            android:label="Info">
+        </activity>
+
+        <activity android:name=".BarcodeScanningActivity"
+            android:label="Scanning">
+        </activity>
+        <activity android:name=".BarcodeScanningResultActivity"
+            android:label="Result">
+        </activity>
+
+
+    </application>
+
+</manifest>
